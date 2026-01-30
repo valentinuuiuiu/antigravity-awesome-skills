@@ -1,40 +1,38 @@
-# Release v4.1.0: Internationalization & Game Development
+# Release v4.2.0: Writing Skills Gold Standard Architecture
 
-> **Vietnamese translations and Unreal Engine C++ expertise added to the skills collection**
+> **Complete refactor of the writing-skills skill to Cloudflare Gold Standard architecture for modular, discoverable skill creation excellence**
 
-This release brings comprehensive Vietnamese language support for documentation and adds professional Unreal Engine 5.x C++ development guidance, expanding the repository's international reach and game development capabilities.
+This release modernizes the core skill-creation skill with a modular architecture inspired by Cloudflare's documentation patterns. The refactored writing-skills now offers progressive disclosure, decision trees, and dedicated reference modules for CSO, anti-rationalization, testing, and tier-based skill structures.
 
-## 🚀 New Skills
+## 🚀 Improvements
 
-### 🎮 [unreal-engine-cpp-pro](skills/unreal-engine-cpp-pro/)
+### 📝 [writing-skills](skills/writing-skills/) – Gold Standard Refactor
 
-**Expert-level Unreal Engine 5.x C++ development guide**
+**Modular architecture for skill creation excellence**
 
-Comprehensive guide for developing robust, performant C++ code in Unreal Engine 5. Covers UObject hygiene, garbage collection patterns, performance optimization, and Epic Games' coding standards.
+The writing-skills skill has been completely refactored to align with Cloudflare Gold Standard principles. Content is now organized into focused, navigable modules instead of a monolithic document.
 
-- **UObject & Garbage Collection**: Proper UPROPERTY usage, TStrongObjectPtr patterns, IsValid() checks
-- **Performance Optimization**: Tick management, casting optimization, struct vs class decisions
-- **Naming Conventions**: Strict adherence to Epic Games' coding standards (T, U, A, F, E, I prefixes)
-- **Common Patterns**: Component lookup, interface implementation, async loading with soft references
-- **Example Code**: Complete Actor implementation demonstrating best practices
+- **Quick Decision Tree**: Start with "Create new" vs "Improve existing" vs "Verify compliance" to find the right path
+- **Component Index**: Direct links to CSO (discovery), Standards (metadata), Anti-Rationalization (rules that stick), and Testing (TDD for skills)
+- **Tier Architecture**: Tier 1 (simple, single file), Tier 2 (expanded, references/), Tier 3 (platform, multi-product)
+- **Templates**: Technique, Reference, Discipline, and Pattern skill templates with clear structure
+- **Gotchas & Examples**: New gotchas.md and examples.md for common pitfalls and copy-pasteable patterns
+- **References Module**: Dedicated READMEs for anti-rationalization, CSO, standards, templates, testing, and tier guides
 
-> **Try it:** `"Help me write a C++ Actor class for Unreal Engine 5"` or `"Show me how to properly use UPROPERTY in Unreal Engine"`
+> **Try it:** `"I want to create a new skill"` or `"How do I fix a skill that agents ignore?"`
 
 ---
 
-## 📦 Improvements
+## 📦 Registry Update
 
-- **Registry Update**: Now tracking 560 skills (was 559).
-- **Internationalization**: Added comprehensive Vietnamese translations for all core documentation
-- **Documentation Structure**: Reorganized Vietnamese translations from `docs/vi/` to `docs/vietnamese/` for consistency
-- **Translation Coverage**: Vietnamese versions now available for README, GETTING_STARTED, CONTRIBUTING, FAQ, SECURITY, QUALITY_BAR, SKILL_ANATOMY, and more
+- **Catalog**: Regenerated for 553 skills
+- **Structure**: writing-skills now uses `references/` subdirectory with 12+ supporting documents
 
 ## 👥 Credits
 
 A huge shoutout to our community contributors:
 
-- **@Dokhacgiakhoa** for comprehensive Vietnamese translations (PR #38)
-- **@junited31** for `unreal-engine-cpp-pro` skill (PR #39)
+- **@evandro-miguel** for writing-skills Gold Standard refactor (PR #41)
 
 ---
 
