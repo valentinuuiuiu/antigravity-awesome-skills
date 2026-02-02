@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 621+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 626+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 621+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 626+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **614 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **626 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -29,7 +29,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📚 Browse 621+ Skills](#browse-621-skills)
+- [📚 Browse 626+ Skills](#browse-626-skills)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
@@ -52,7 +52,7 @@ AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **speci
 
 ### 2. ⚡️ Quick Start (The "Bundle" Way)
 
-Don't install 614+ skills manually. Use our **Starter Packs**:
+Install once (clone or npx); then use our **Starter Packs** in [docs/BUNDLES.md](docs/BUNDLES.md) to see which skills fit your role. You get the full repo; Starter Packs are curated lists, not a separate install.
 
 1.  **Install** (pick one):
     ```bash
@@ -124,7 +124,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## Browse 621+ Skills
+## Browse 626+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 
@@ -154,6 +154,8 @@ npx antigravity-awesome-skills --path ./my-skills
 ```
 
 Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
+
+> **If you see a 404 error:** the package may not be published to npm yet. Use: `npx github:sickn33/antigravity-awesome-skills`
 
 ### Option B: git clone
 
@@ -229,6 +231,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Marketing skills for CRO, copywriting, SEO, paid ads, and growth (23 skills, MIT).
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
+- **[whatiskadudoing/fp-ts-skills](https://github.com/whatiskadudoing/fp-ts-skills)**: Practical fp-ts skills for TypeScript – fp-ts-pragmatic, fp-ts-react, fp-ts-errors (v4.4.0).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 - **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
 
@@ -293,6 +296,9 @@ We officially thank the following contributors for their help in making this rep
 - [taksrules](https://github.com/taksrules)
 - [zebbern](https://github.com/zebbern)
 - [vuth-dogo](https://github.com/vuth-dogo)
+- [whatiskadudoing](https://github.com/whatiskadudoing)
+- [c1c3ru](https://github.com/c1c3ru)
+- [devchangjun](https://github.com/devchangjun)
 
 ## Star History
 
