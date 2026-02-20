@@ -5,9 +5,14 @@ Use this template to create a factory that supports multiple providers
 for transcription, LLM, and TTS services.
 """
 
-from typing import Dict, Any
+from typing import Dict, Any, AsyncGenerator
 from abc import ABC, abstractmethod
 import logging
+
+try:
+    import anthropic
+except ImportError:
+    anthropic = None
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +37,77 @@ class LLMProvider(ABC):
     async def generate_response(self, messages, stream=True):
         """Generate response from messages"""
         pass
+
+
+class ClaudeAgent(LLMProvider):
+    """
+    Anthropic Claude LLM provider implementation
+
+    Key features:
+    - Uses Anthropic Async SDK
+    - Supports system prompts
+    - Buffers streaming responses to prevent audio jumping
+    """
+
+    def __init__(self, api_key: str, model: str, system_prompt: str):
+        if anthropic is None:
+            raise ImportError(
+                "Anthropic SDK not found. Please install it with 'pip install anthropic'."
+            )
+        self.client = anthropic.AsyncAnthropic(api_key=api_key)
+        self.model = model
+        self.system_prompt = system_prompt
+
+    async def generate_response(self, messages, stream=True) -> AsyncGenerator[str, None]:
+        """
+        Generate response from messages
+
+        Args:
+            messages: List of message dicts (OpenAI format)
+            stream: Whether to use streaming API (buffers internally per best practices)
+
+        Yields:
+            The complete buffered response
+        """
+        # Filter out system messages from the messages list as Anthropic
+        # expects them in the 'system' parameter
+        filtered_messages = [m for m in messages if m.get("role") != "system"]
+
+        # Determine system prompt. We prioritize system messages in the current
+        # request's messages list to allow per-request overrides.
+        system_prompt = self.system_prompt
+        system_messages = [m for m in messages if m.get("role") == "system"]
+        if system_messages:
+            system_prompt = system_messages[0].get("content")
+
+        if stream:
+            # IMPORTANT: We buffer the entire LLM response before yielding to
+            # the synthesizer. This is a critical best practice for voice AI
+            # engines to avoid multiple TTS API calls, which cause "audio jumping"
+            # and unnatural pauses in the synthesized speech.
+            full_response = ""
+            async with self.client.messages.stream(
+                model=self.model,
+                system=system_prompt,
+                messages=filtered_messages,
+                max_tokens=4096,
+            ) as stream_obj:
+                async for text in stream_obj.text_stream:
+                    full_response += text
+
+            if full_response.strip():
+                yield full_response.strip()
+        else:
+            response = await self.client.messages.create(
+                model=self.model,
+                system=system_prompt,
+                messages=filtered_messages,
+                max_tokens=4096,
+            )
+            # Match the generator interface for consistency
+            res_text = response.content[0].text
+            if res_text and res_text.strip():
+                yield res_text.strip()
 
 
 class TTSProvider(ABC):
@@ -209,8 +285,11 @@ class VoiceComponentFactory:
     
     def _create_claude_agent(self, config: Dict[str, Any]):
         """Create Anthropic Claude agent"""
-        # TODO: Implement Claude agent
-        raise NotImplementedError("Claude agent not implemented")
+        return ClaudeAgent(
+            api_key=config.get("claudeApiKey"),
+            model=config.get("claudeModel", "claude-3-5-sonnet-20240620"),
+            system_prompt=config.get("prompt", "You are a helpful assistant.")
+        )
     
     # ========================================================================
     # TTS Synthesizer Implementations
