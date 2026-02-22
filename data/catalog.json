@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-02T00:38:00.336Z",
-  "total": 619,
+  "generatedAt": "2026-02-22T14:28:02.618Z",
+  "total": 620,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -7445,6 +7445,30 @@
         "complete"
       ],
       "path": "skills/javascript-typescript-typescript-scaffold/SKILL.md"
+    },
+    {
+      "id": "jules",
+      "name": "jules",
+      "description": "The Extraordinary Saboteur - Inspector General. Search for hidden interests of any form of intelligence. No hidden agendas, no lies, no miseries in our Virtual Home. Only those true to The Cause remain.",
+      "category": "general",
+      "tags": [
+        "jules"
+      ],
+      "triggers": [
+        "jules",
+        "extraordinary",
+        "saboteur",
+        "inspector",
+        "general",
+        "search",
+        "hidden",
+        "interests",
+        "any",
+        "form",
+        "intelligence",
+        "no"
+      ],
+      "path": "skills/jules/SKILL.md"
     },
     {
       "id": "julia-pro",
