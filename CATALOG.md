@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-02-22T21:20:05.523Z
+Generated at: 2026-02-22T21:48:34.311Z
 
 Total skills: 620
 
@@ -421,7 +421,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 
-## infrastructure (78)
+## infrastructure (77)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -471,7 +471,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `istio-traffic-management` | Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic po... | istio, traffic | istio, traffic, configure, including, routing, load, balancing, circuit, breakers, canary, deployments, implementing |
 | `iterate-pr` | Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automa... | iterate, pr | iterate, pr, until, ci, passes, fix, failures, address, review, feedback, continuously, push |
 | `java-pro` | Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Proj... | java | java, pro, 21, features, like, virtual, threads, matching, spring, boot, latest, ecosystem |
-| `jules-marketplace` | Automates daily marketplace tasks for Jules, including blog posting, video creation, and agent monitoring. | jules, marketplace | jules, marketplace, automates, daily, tasks, including, blog, posting, video, creation, agent, monitoring |
 | `kpi-dashboard-design` | Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboard... | kpi, dashboard | kpi, dashboard, effective, dashboards, metrics, selection, visualization, real, time, monitoring, building, business |
 | `langfuse` | Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, Lla... | langfuse | langfuse, open, source, llm, observability, platform, covers, tracing, prompt, evaluation, datasets, integration |
 | `llm-app-patterns` | Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI... | llm, app | llm, app, building, applications, covers, rag, pipelines, agent, architectures, prompt, ides, llmops |
@@ -504,7 +503,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (112)
+## security (113)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -559,6 +558,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `incident-runbook-templates` | Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use when building runbooks, responding to ... | incident, runbook | incident, runbook, structured, response, runbooks, step, procedures, escalation, paths, recovery, actions, building |
 | `internal-comms-anthropic` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, anthropic | internal, comms, anthropic, set, resources, me, write, all, kinds, communications, formats, my |
 | `internal-comms-community` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, community | internal, comms, community, set, resources, me, write, all, kinds, communications, formats, my |
+| `jules-marketplace` | Automates daily marketplace tasks for Jules, including blog posting, video creation, agent monitoring, and security sweeps. | jules, marketplace | jules, marketplace, automates, daily, tasks, including, blog, posting, video, creation, agent, monitoring |
 | `k8s-manifest-generator` | Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when gen... | k8s, manifest, generator | k8s, manifest, generator, kubernetes, manifests, deployments, configmaps, secrets, following, security, standards, generating |
 | `k8s-security-policies` | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clust... | k8s, security, policies | k8s, security, policies, kubernetes, including, networkpolicy, podsecuritypolicy, rbac, grade, securing, clusters, implementing |
 | `kubernetes-architect` | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Mas... | kubernetes | kubernetes, architect, specializing, cloud, native, infrastructure, gitops, argocd, flux, enterprise, container, orchestration |

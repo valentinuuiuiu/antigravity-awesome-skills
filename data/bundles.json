@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T21:20:05.523Z",
+  "generatedAt": "2026-02-22T21:48:34.311Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -176,6 +176,7 @@
         "hugging-face-jobs",
         "hybrid-cloud-architect",
         "idor-testing",
+        "jules-marketplace",
         "k8s-manifest-generator",
         "k8s-security-policies",
         "kubernetes-architect",

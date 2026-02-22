@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T21:20:05.523Z",
+  "generatedAt": "2026-02-22T21:48:34.311Z",
   "total": 620,
   "skills": [
     {
@@ -7449,8 +7449,8 @@
     {
       "id": "jules-marketplace",
       "name": "jules-marketplace",
-      "description": "Automates daily marketplace tasks for Jules, including blog posting, video creation, and agent monitoring.",
-      "category": "infrastructure",
+      "description": "Automates daily marketplace tasks for Jules, including blog posting, video creation, agent monitoring, and security sweeps.",
+      "category": "security",
       "tags": [
         "jules",
         "marketplace"
