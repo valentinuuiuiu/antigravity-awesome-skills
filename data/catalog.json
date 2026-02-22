@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-02T00:38:00.336Z",
-  "total": 619,
+  "generatedAt": "2026-02-22T21:20:05.523Z",
+  "total": 620,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -7445,6 +7445,31 @@
         "complete"
       ],
       "path": "skills/javascript-typescript-typescript-scaffold/SKILL.md"
+    },
+    {
+      "id": "jules-marketplace",
+      "name": "jules-marketplace",
+      "description": "Automates daily marketplace tasks for Jules, including blog posting, video creation, and agent monitoring.",
+      "category": "infrastructure",
+      "tags": [
+        "jules",
+        "marketplace"
+      ],
+      "triggers": [
+        "jules",
+        "marketplace",
+        "automates",
+        "daily",
+        "tasks",
+        "including",
+        "blog",
+        "posting",
+        "video",
+        "creation",
+        "agent",
+        "monitoring"
+      ],
+      "path": "skills/jules-marketplace/SKILL.md"
     },
     {
       "id": "julia-pro",
