@@ -24,3 +24,4 @@ scripts/*voltagent*.py
 scripts/*html*.py
 scripts/*similar*.py
 scripts/*count*.py
+self_created_tools/
