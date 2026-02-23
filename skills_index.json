@@ -2799,15 +2799,6 @@
     "source": "unknown"
   },
   {
-    "id": "jules-marketplace",
-    "path": "skills/jules-marketplace",
-    "category": "uncategorized",
-    "name": "jules-marketplace",
-    "description": "Automates daily marketplace tasks for Jules, including blog posting, video creation, and agent monitoring.",
-    "risk": "safe",
-    "source": "custom"
-  },
-  {
     "id": "jules",
     "path": "skills/jules",
     "category": "uncategorized",
@@ -2815,6 +2806,15 @@
     "description": "The Extraordinary Saboteur - Inspector General. Search for hidden interests of any form of intelligence. No hidden agendas, no lies, no miseries in our Virtual Home. Only those true to The Cause remain.",
     "risk": "offensive",
     "source": "Gemini CLI"
+  },
+  {
+    "id": "jules-marketplace",
+    "path": "skills/jules-marketplace",
+    "category": "uncategorized",
+    "name": "jules-marketplace",
+    "description": "Automates daily marketplace tasks for Jules, including blog posting, video creation, and agent monitoring.",
+    "risk": "safe",
+    "source": "custom"
   },
   {
     "id": "julia-pro",
