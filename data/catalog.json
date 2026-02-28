@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T19:05:46.652Z",
+  "generatedAt": "2026-02-28T14:37:48.830Z",
   "total": 621,
   "skills": [
     {
@@ -10939,8 +10939,8 @@
     {
       "id": "readme",
       "name": "readme",
-      "description": "When the user wants to create or update a README.md file for a project. Also use when the user says",
-      "category": "general",
+      "description": "When the user wants to create or update a README.md file for a project. Also use when the user says \"write readme,\" \"create readme,\" \"document this project,\" \"project documentation,\" or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.",
+      "category": "infrastructure",
       "tags": [
         "readme"
       ],
@@ -10951,7 +10951,12 @@
         "update",
         "md",
         "file",
-        "says"
+        "says",
+        "write",
+        "document",
+        "documentation",
+        "asks",
+        "skill"
       ],
       "path": "skills/readme/SKILL.md"
     },
@@ -14447,7 +14452,7 @@
     {
       "id": "vercel-deploy-claimable",
       "name": "vercel-deploy-claimable",
-      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as",
+      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
       "category": "infrastructure",
       "tags": [
         "vercel",
@@ -14465,7 +14470,8 @@
         "requests",
         "deployment",
         "actions",
-        "such"
+        "such",
+        "my"
       ],
       "path": "skills/vercel-deploy-claimable/SKILL.md"
     },
