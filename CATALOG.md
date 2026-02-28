@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-02-23T19:05:46.652Z
+Generated at: 2026-02-28T14:33:43.977Z
 
 Total skills: 621
 
@@ -294,7 +294,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (123)
+## general (122)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -391,7 +391,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `pptx-official` | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying o... | pptx, official | pptx, official, presentation, creation, editing, analysis, claude, work, presentations, files, creating, new |
 | `privilege-escalation-methods` | This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploi... | privilege, escalation, methods | privilege, escalation, methods, skill, should, used, user, asks, escalate, privileges, get, root |
 | `prompt-library` | Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use... | prompt, library | prompt, library, curated, collection, high, quality, prompts, various, cases, includes, role, task |
-| `readme` | When the user wants to create or update a README.md file for a project. Also use when the user says | readme | readme, user, wants, update, md, file, says |
 | `receiving-code-review` | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technic... | receiving, code | receiving, code, review, feedback, before, implementing, suggestions, especially, seems, unclear, technically, questionable |
 | `referral-program` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referr... | referral, program | referral, program, user, wants, optimize, analyze, affiliate, word, mouth, mentions, ambassador, viral |
 | `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | requesting, code | requesting, code, review, completing, tasks, implementing, major, features, before, merging, verify, work |
@@ -422,7 +421,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 
-## infrastructure (78)
+## infrastructure (79)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -490,6 +489,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `performance-testing-review-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | performance, ai | performance, ai, testing, review, powered, code, combining, automated, static, analysis, intelligent, recognition |
 | `prometheus-configuration` | Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, ... | prometheus, configuration | prometheus, configuration, set, up, metric, collection, storage, monitoring, infrastructure, applications, implementing, metrics |
 | `protocol-reverse-engineering` | Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network tra... | protocol, reverse, engineering | protocol, reverse, engineering, network, including, packet, analysis, dissection, custom, documentation, analyzing, traffic |
+| `readme` | When the user wants to create or update a README.md file for a project. Also use when the user says "write readme," "create readme," "document this project,"... | readme | readme, user, wants, update, md, file, says, write, document, documentation, asks, skill |
 | `server-management` | Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. | server | server, principles, decision, making, process, monitoring, scaling, decisions, teaches, thinking, commands |
 | `service-mesh-observability` | Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debu... | service, mesh, observability | service, mesh, observability, meshes, including, distributed, tracing, metrics, visualization, setting, up, monitoring |
 | `slo-implementation` | Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability t... | slo | slo, define, level, indicators, slis, objectives, slos, error, budgets, alerting, establishing, reliability |
@@ -499,7 +499,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `terraform-skill` | Terraform infrastructure as code best practices | terraform, skill | terraform, skill, infrastructure, code |
 | `test-automator` | Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with a... | automator | automator, test, ai, powered, automation, frameworks, self, healing, tests, quality, engineering, scalable |
 | `unity-developer` | Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform de... | unity | unity, developer, games, optimized, scripts, efficient, rendering, proper, asset, masters, lts, urp |
-| `vercel-deploy-claimable` | Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as | vercel, deploy, claimable | vercel, deploy, claimable, applications, websites, skill, user, requests, deployment, actions, such |
+| `vercel-deploy-claimable` | Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as "Deploy my app", "Deploy this to production", "C... | vercel, deploy, claimable | vercel, deploy, claimable, applications, websites, skill, user, requests, deployment, actions, such, my |
 | `vercel-deployment` | Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production. | vercel, deployment | vercel, deployment, knowledge, deploying, next, js, deploy, hosting |
 | `voice-agents` | Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis,... | voice, agents | voice, agents, represent, frontier, ai, interaction, humans, speaking, naturally, challenge, isn, just |
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
