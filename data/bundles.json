@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T19:05:46.652Z",
+  "generatedAt": "2026-02-28T15:31:28.048Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -385,6 +385,7 @@
         "performance-testing-review-ai-review",
         "postmortem-writing",
         "prometheus-configuration",
+        "readme",
         "risk-metrics-calculation",
         "security-auditor",
         "server-management",
