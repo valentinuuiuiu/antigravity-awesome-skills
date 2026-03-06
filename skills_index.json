@@ -4071,10 +4071,10 @@
     "id": "readme",
     "path": "skills/readme",
     "category": "uncategorized",
-    "name": "Readme",
-    "description": "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough\u2014the kind of documentation you wish every project had.",
-    "risk": "unknown",
-    "source": "unknown"
+    "name": "readme",
+    "description": "When the user wants to create or update a README.md file for a project. Also use when the user says \"write readme,\" \"create readme,\" \"document this project,\" \"project documentation,\" or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.",
+    "risk": "safe",
+    "source": "https://github.com/Shpigford/skills/tree/main/readme"
   },
   {
     "id": "receiving-code-review",
@@ -5394,10 +5394,10 @@
     "id": "vercel-deploy-claimable",
     "path": "skills/vercel-deploy-claimable",
     "category": "uncategorized",
-    "name": "Vercel Deploy Claimable",
-    "description": "Deploy any project to Vercel instantly. No authentication required.",
-    "risk": "unknown",
-    "source": "unknown"
+    "name": "vercel-deploy-claimable",
+    "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable"
   },
   {
     "id": "vercel-deployment",
