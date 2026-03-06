@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-28T15:21:50.001Z",
-  "total": 621,
+  "generatedAt": "2026-03-06T12:47:11.783Z",
+  "total": 622,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -7494,6 +7494,31 @@
         "monitoring"
       ],
       "path": "skills/jules-marketplace/SKILL.md"
+    },
+    {
+      "id": "jules-monitor",
+      "name": "jules-monitor",
+      "description": "A monitor script to clean up after other agents, keep network connection open, and check TASK_QUEUE.md on the VPS.",
+      "category": "infrastructure",
+      "tags": [
+        "jules",
+        "monitor"
+      ],
+      "triggers": [
+        "jules",
+        "monitor",
+        "script",
+        "clean",
+        "up",
+        "after",
+        "other",
+        "agents",
+        "keep",
+        "network",
+        "connection",
+        "open"
+      ],
+      "path": "skills/jules-monitor/SKILL.md"
     },
     {
       "id": "julia-pro",
