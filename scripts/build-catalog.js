@@ -270,7 +270,7 @@ function renderCatalogMarkdown(catalog) {
   const lines = [];
   lines.push('# Skill Catalog');
   lines.push('');
-  lines.push(`Generated at: ${catalog.generatedAt}`);
+
   lines.push('');
   lines.push(`Total skills: ${catalog.total}`);
   lines.push('');
@@ -318,7 +318,7 @@ function buildCatalog() {
   }
 
   const catalog = {
-    generatedAt: new Date().toISOString(),
+
     total: catalogSkills.length,
     skills: catalogSkills.sort((a, b) => a.id.localeCompare(b.id)),
   };
@@ -335,11 +335,11 @@ function buildCatalog() {
   fs.writeFileSync(catalogMarkdownPath, renderCatalogMarkdown(catalog));
   fs.writeFileSync(
     bundlesPath,
-    JSON.stringify({ generatedAt: catalog.generatedAt, ...bundleData }, null, 2),
+    JSON.stringify(bundleData, null, 2),
   );
   fs.writeFileSync(
     aliasesPath,
-    JSON.stringify({ generatedAt: catalog.generatedAt, aliases }, null, 2),
+    JSON.stringify({ aliases }, null, 2),
   );
 
   return catalog;
