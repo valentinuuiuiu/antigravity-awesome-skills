@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 628+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 629+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 628+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 629+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -29,7 +29,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📚 Browse 628+ Skills](#browse-628-skills)
+- [📚 Browse 629+ Skills](#browse-629-skills)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
@@ -124,7 +124,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## Browse 628+ Skills
+## Browse 629+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 

@@ -2817,6 +2817,15 @@
     "source": "custom"
   },
   {
+    "id": "jules-monitor",
+    "path": "skills/jules-monitor",
+    "category": "uncategorized",
+    "name": "jules-monitor",
+    "description": "A monitor script to clean up after other agents, keep network connection open, and check TASK_QUEUE.md on the VPS.",
+    "risk": "safe",
+    "source": "agent-created"
+  },
+  {
     "id": "julia-pro",
     "path": "skills/julia-pro",
     "category": "uncategorized",
